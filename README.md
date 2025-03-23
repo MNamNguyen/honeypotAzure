@@ -17,7 +17,12 @@ Honeypot hoạt động dựa trên cơ chế “lừa đập” tin tặc vào 
     + Phát hiện sớm các mối đe dọa và ngăn chặn kịp thời các cuộc tấn công vào hệ thống thực.
 ### Phân loại HoneyPot
     
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| Loại HoneyPot  | Đặc điểm |  Ưu điểm  |  Nhược điểm  |
+| ------------- | ------------- | ------------- | ------------- |
+| Tương tác thấp  | Mô phỏng cơ bản các dịch vụ mạng như TCP/IP, HTTP, FTP…  | Dễ triển khai, tiết kiệm tài nguyên, rủi ro thấp  | Thông tin thu thập bị giới hạn, không thể mô phỏng đầy đủ các hoạt động của hệ thống thật.  |
+| Tương tác cao  | Sử dụng hệ điều hành hoặc ứng dụng thực, cho phép tương tác sâu với tin tặc  | Thu thập dữ liệu chi tiết về kỹ thuật, hành vi tấn công  | Chi phí triển khai cao, rủi ro nếu bị kiểm soát, cần giám sát chặt chẽ.  |
+| Tương tác thông minh  | Được thiết kế đặc thù cho môi trường đa dạng như IoT, kết hợp giữa mô phỏng và hệ thống thực  | Phù hợp với môi trường IoT phức tạp, giúp đánh giá mức độ nguy cơ một cách chính xác  | Cấu trúc phức tạp, đòi hỏi kiến thức kỹ thuật cao để vận hành và bảo trì.  |
+
+## LAB
+### Mục tiêu bài lab
+  - Cài đặt sử dụng các tính năng của Azure ví dụ Virtual Machine (VMs) - cho phép tạo các máy ảo, Log Analytics Workspaces, và Azure Sentinel
